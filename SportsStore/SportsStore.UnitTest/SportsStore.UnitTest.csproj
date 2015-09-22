@@ -62,9 +62,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SportsStore.Domian\SportsStore.Domian.csproj">
+    <ProjectReference Include="..\SportsStore.Domian\SportsStore.Domain.csproj">
       <Project>{2e3b99c8-3401-49bc-8e99-acb473efc75d}</Project>
-      <Name>SportsStore.Domian</Name>
+      <Name>SportsStore.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\SportsStore.WebUI\SportsStore.WebUI.csproj">
       <Project>{9dc2b9d4-d91a-4603-bab2-dd111284e5eb}</Project>
