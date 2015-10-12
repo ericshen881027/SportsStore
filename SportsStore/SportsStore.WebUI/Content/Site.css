@@ -81,3 +81,12 @@ div.pager{ text-align: right;border-top: 2px solid silver;padding: .5em 0 0 0;ma
 div.pager A{ font-size: 1.1em;color: #666;text-decoration: none;padding: 0 .4em 0 .4em}
 div.pager A:hover{ background-color: silver;}
 div.pager A.selected{ background-color: #353535;color: white;}
+
+div#categories A {
+    font: bold 1.1em "Arial Narrow", "Franklin Gothic Medium", Arial;display: block;
+    text-decoration: none;padding: .6em;color: black;
+    border-bottom: 1px solid silver;
+}
+div#categories A.selected{ background-color: #666;color: white;}
+div#categories A:hover{ background-color: #CCC;}
+div#categories A.selected:hover{ background-color: #666;}

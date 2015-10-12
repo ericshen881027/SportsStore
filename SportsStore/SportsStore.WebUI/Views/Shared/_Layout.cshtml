@@ -4,19 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link href="~/Content/Site.css" type="text/css" rel="stylesheet"/>
+    <link href="~/Content/Site.css" type="text/css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-<div id="header">
-    <div class="title">SPORTS STORE</div>
-</div>
-<div id="categories">
-    We will put something uesful here later
-</div>
-<div id="content">
-    @RenderBody()
-</div>
+    <div id="header">
+        <div class="title">SPORTS STORE</div>
+    </div>
+    <div id="categories">
+        @{ Html.RenderAction("Menu", "Nav"); }
+    </div>
+    <div id="content">
+        @RenderBody()
+    </div>
 </body>
 </html>
