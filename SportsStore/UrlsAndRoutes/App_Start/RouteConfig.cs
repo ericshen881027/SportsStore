@@ -22,8 +22,10 @@ namespace UrlsAndRoutes
             ////    new[] { "UrlsAndRoutes.AdditionalControllers" });
             ////mapRoute.DataTokens["UseNamespaceFallback"] = false;
 
-            routes.RouteExistingFiles = false;
+            routes.RouteExistingFiles = true;
 
+            routes.IgnoreRoute("Content/{filename}.html");
+            routes.MapRoute("DiskFile", "Content/StaticContent.html", new {controller = "Customer", action = "List"});
             routes.MapRoute("ChromeRoute", "{*catchall}", new {controller = "Home", action = "Index"},
                 new {customConstraint = new UserAgentConstraint("Chrome")},
                 new[] {"UrlsAndRoutes.AdditionalControllers"});
