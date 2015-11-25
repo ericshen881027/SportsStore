@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllersAndActions", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filters", "Filters\Filters.csproj", "{68A61C54-AB98-490A-BE1A-608F5069B91C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerExtensibility", "ControllerExtensibility\ControllerExtensibility.csproj", "{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{68A61C54-AB98-490A-BE1A-608F5069B91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A61C54-AB98-490A-BE1A-608F5069B91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A61C54-AB98-490A-BE1A-608F5069B91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
