@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filters", "Filters\Filters.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerExtensibility", "ControllerExtensibility\ControllerExtensibility.csproj", "{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Views\Views.csproj", "{C6CBD4B4-D4A6-4646-B14B-EB43CD535096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRazor", "WorkingWithRazor\WorkingWithRazor.csproj", "{E12B1B1C-A473-4D8D-868F-66F56BC84677}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBC82683-880A-47AD-99D6-EF9ADBC7C43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CBD4B4-D4A6-4646-B14B-EB43CD535096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CBD4B4-D4A6-4646-B14B-EB43CD535096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CBD4B4-D4A6-4646-B14B-EB43CD535096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CBD4B4-D4A6-4646-B14B-EB43CD535096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12B1B1C-A473-4D8D-868F-66F56BC84677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12B1B1C-A473-4D8D-868F-66F56BC84677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12B1B1C-A473-4D8D-868F-66F56BC84677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12B1B1C-A473-4D8D-868F-66F56BC84677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
